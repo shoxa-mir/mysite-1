@@ -1,0 +1,84 @@
+body {
+	margin: 0;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+
+h1 {
+	margin-top: 0;
+	font-family: 'Sacramento', cursive;
+	font-size: 50px;
+}
+
+h2 {
+	font-family: 'Montserrat', cursive;
+}
+h3 {
+	font-family: 'Montserrat', cursive;
+}
+
+.top-container {
+	background-color: #e4fbff;
+	position: relative;
+	padding-top: 100px;
+}
+
+.middle-container {
+
+}
+
+.profile-img {
+	padding-top: 30px;
+	width: 200px;
+	height: 200px;
+}
+
+.webdev-img, .analytics-img {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+.bottom-container {
+
+}
+
+.top-cloud{
+	position: absolute;
+	right: 300px;
+	top: 50px;
+	animation: topcloud 6s infinite;
+}
+
+@keyframes topcloud{
+	0% {
+		right: 300px
+	}
+	50% {
+		right: 400px
+	}
+	100% {
+		right: 300px
+	}
+}
+
+.bottom-cloud {
+	position: absolute;
+	left: 300px;
+	bottom: 300px;
+	animation: bottomcloud 6.5s infinite;
+}
+@keyframes bottomcloud{
+	0% {
+		left: 300px
+	}
+	50% {
+		left: 400px
+	}
+	100% {
+		left: 300px
+	}
+}
+.footer-link {
+		margin: 20px 10px;
+}
